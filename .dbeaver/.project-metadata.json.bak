@@ -1,1 +1,1 @@
-{"resources":{"banco.domain-db-create.sql":{"default-datasource":"oracle_thin-18b2190c393-547d6b6972288d65","default-schema":"BANCO"}}}
+{"resources":{"Scripts/banco.domain-db-create_20231011_2056.sql":{"default-schema":"BANCO","default-datasource":"oracle_thin-18b456b9f6b-432135f57121331a"}}}

@@ -1,6 +1,25 @@
 {
 	"folders": {},
 	"connections": {
+		"oracle_thin-18b2190c393-547d6b6972288d65": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "XEPDB1",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XEPDB1",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XEPDB1",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
 		"oracle_thin-18b456b9f6b-432135f57121331a": {
 			"provider": "oracle",
 			"driver": "oracle_thin",
