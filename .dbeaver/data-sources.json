@@ -19,6 +19,44 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"oracle_thin-18b8d62c1ca-2d3003fbe64b7017": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "AGENCIA",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "AGENCIA",
+				"url": "jdbc:oracle:thin:@//localhost:1521/AGENCIA",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		},
+		"oracle_thin-18b8d62d120-4bb3a080a20cc242": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "COLEGIO",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "COLEGIO",
+				"url": "jdbc:oracle:thin:@//localhost:1521/COLEGIO",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
 		}
 	},
 	"network-profiles": {
