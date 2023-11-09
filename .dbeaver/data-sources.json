@@ -57,6 +57,44 @@
 				},
 				"auth-model": "oracle_native"
 			}
+		},
+		"sybase_jconn-18bb172da6e-23646e55123ec255": {
+			"provider": "mssql",
+			"driver": "sybase_jconn",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "2638",
+				"url": "jdbc:sybase:Tds:localhost:2638",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"properties": {
+					"loginTimeout": "20"
+				},
+				"provider-properties": {
+					"@dbeaver-show-all-schemas@": "false",
+					"@dbeaver-encrypt-password@": "false"
+				},
+				"auth-model": "native"
+			}
+		},
+		"postgres-jdbc-18bb17c5ed9-1e98ba2e6793816f": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "postgres",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5432/postgres",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"provider-properties": {},
+				"auth-model": "native"
+			}
 		}
 	},
 	"network-profiles": {
