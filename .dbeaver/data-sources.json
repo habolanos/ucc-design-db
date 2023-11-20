@@ -66,7 +66,8 @@
 			"configuration": {
 				"host": "localhost",
 				"port": "2638",
-				"url": "jdbc:sybase:Tds:localhost:2638",
+				"database": "banco",
+				"url": "jdbc:sybase:Tds:localhost:2638?ServiceName\u003dbanco",
 				"configurationType": "MANUAL",
 				"type": "dev",
 				"properties": {
@@ -76,7 +77,8 @@
 					"@dbeaver-show-all-schemas@": "false",
 					"@dbeaver-encrypt-password@": "false"
 				},
-				"auth-model": "native"
+				"auth-model": "native",
+				"handlers": {}
 			}
 		},
 		"postgres-jdbc-18bb17c5ed9-1e98ba2e6793816f": {
